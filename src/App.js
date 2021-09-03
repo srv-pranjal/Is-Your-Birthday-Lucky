@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Footer from "./components/footer";
 
 function App() {
   const [birthDate, setBirthDate] = useState("");
@@ -51,7 +52,8 @@ function App() {
         />
         <button>Check</button>
       </form>
-      <p id="message">{message}</p>
+      <p>{message}</p>
+      <Footer />
     </div>
   );
 }
