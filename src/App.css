@@ -30,7 +30,7 @@ h1 {
 p {
   text-align: center;
   margin: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 input {
@@ -87,15 +87,6 @@ button:hover {
   color: rgba(117, 47, 247, 0.986);
   font-weight: bold;
 }
-#message {
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 80%;
-  margin: auto;
-}
-
 footer {
   margin-top: 3rem;
 }
